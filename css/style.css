@@ -1,0 +1,79 @@
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+
+header {
+  background-image: url(../images/Ellie-hero-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 500px;
+  text-align: center;
+}
+
+header img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  border-radius: 200px;
+  border: 10px solid #7B68EE;
+  align-content: top;
+}
+
+
+h1 {
+  color: white;
+  font-size: 48px;
+  position: relative;
+  bottom: -458px;
+  left: 500px;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img.big-img{
+  max-width: 100%;
+  align-content: center;
+}
+
+p.caption {
+  font-size: 16px;
+  color: lightgrey;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: mediumpurple;
+  text-decoration: none;
+}
+
+div, iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 40px 20px;
+  background-color: #E6E6E6;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+}
